@@ -74,6 +74,7 @@ const Game = () => {
       }, 1000);
     }
   }, [winning]);
+  const com = "";
   const [won, setWon] = useState(false);
   return (
     <>
