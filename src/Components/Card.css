@@ -1,0 +1,75 @@
+.cardBody {
+  height: 400px;
+  background-image: url("../assets/backcard.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 270px;
+  color: rgb(68, 255, 0);
+  font-size: 2rem;
+}
+
+.flippedCard {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.8rem;
+  transition: all 0.5s ease-out;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 270px;
+  background: #a2a2a2;
+
+  font-size: 2rem;
+  transform: rotateY(180deg);
+}
+
+.winCard {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.8rem;
+  transition: all 0.5s ease-out;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 270px;
+  background: rgb(68, 255, 0);
+  transform: rotateY(180deg);
+  color: white;
+  font-size: 2rem;
+}
+
+.cardBody:hover {
+  transform: rotateY(-10deg);
+  border-color: red;
+}
+
+.cardImage {
+  width: 100px; /* Adjust width as needed */
+  object-fit: cover; /* Ensures the image covers the specified dimensions */
+}
